@@ -1,191 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SQUOOS Privacy Policy</title>
-  <style>
-    body {
-      font-family: Arial, Helvetica, sans-serif;
-      line-height: 1.6;
-      max-width: 850px;
-      margin: 40px auto;
-      padding: 0 20px;
-      color: #222;
-      background-color: #fff;
-    }
-
-    h1, h2 {
-      line-height: 1.3;
-    }
-
-    h1 {
-      margin-bottom: 10px;
-    }
-
-    h2 {
-      margin-top: 30px;
-    }
-
-    a {
-      color: #1769aa;
-      overflow-wrap: anywhere;
-    }
-  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SQUOOS Privacy Policy</title>
+<meta name="description" content="How the SQUOOS game handles your information.">
+<style>
+:root{--bg:#f6f7f4;--card:#fff;--ink:#1b2b3a;--dim:#5b6873;--line:#dfe4dc;--accent:#c47a12;--soft:#fdf1dd}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){--bg:#15191d;--card:#1e2429;--ink:#e7ecef;--dim:#9aa6ae;--line:#2e363d;--accent:#f0a93b;--soft:#3a2d17}
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,sans-serif}
+.wrap{max-width:720px;margin:0 auto;padding:36px 16px 64px}
+h1{font-size:30px;letter-spacing:-.5px;margin:0 0 4px}
+.meta{color:var(--dim);margin:0 0 22px}
+h2{font-size:19px;margin:32px 0 6px}
+h3{font-size:16px;margin:18px 0 4px}
+p,li{margin:6px 0}
+ul{padding-left:20px}
+.summary{background:var(--soft);border-radius:12px;padding:14px 16px;margin:18px 0}
+.summary ul{margin:6px 0 0}
+table{width:100%;border-collapse:collapse;font-size:15px;margin:10px 0;background:var(--card);border-radius:10px;overflow:hidden}
+th,td{text-align:left;vertical-align:top;padding:8px 10px;border-bottom:1px solid var(--line)}
+th{color:var(--dim);font-weight:600}
+a{color:var(--accent)}
+.tablewrap{overflow-x:auto}
+footer{margin-top:40px;color:var(--dim);font-size:14px;border-top:1px solid var(--line);padding-top:14px}
+</style>
 </head>
 <body>
-
-  <h1>SQUOOS Privacy Policy</h1>
-
-  <p><strong>Effective date:</strong> 9/24/2026</p>
-
-  <p>
-    This Privacy Policy explains how SQUOOS (“the App”) collects, uses, and
-    protects information when you use the App.
-  </p>
-
-  <h2>1. Information We Collect</h2>
-
-  <p>Depending on how you use SQUOOS, we may collect:</p>
-
-  <ul>
-    <li>
-      <strong>Account information:</strong> If you create an account, we collect
-      your email address and use authentication information to let you sign up,
-      sign in, and manage your account.
-    </li>
-    <li>
-      <strong>Password information:</strong> SQUOOS uses Supabase Auth for
-      email-and-password authentication. Supabase Auth stores password hashes
-      rather than plain-text passwords. We do not intend to store your password
-      in readable form.
-    </li>
-    <li>
-      <strong>Game information:</strong> Your unlocked Squoos, Skins, Reactions,
-      Achievements, and Stats are recorded in your profile to be used in our
-      Leaderboard.
-    </li>
-  </ul>
-
-  <p>
-    You are able to play without creating an account. If you do, account
-    information will not be collected through account registration, though
-    other information described in this policy may still be processed.
-  </p>
-
-  <h2>2. How We Use Information</h2>
-
-  <p>Information may be used to:</p>
-
-  <ul>
-    <li>Create and manage accounts and authenticate users.</li>
-    <li>
-      Provide account-related features and, if applicable, save and restore
-      game progress.
-    </li>
-    <li>Operate, maintain, secure, and troubleshoot the App.</li>
-    <li>
-      Respond to support requests and comply with applicable legal obligations.
-    </li>
-  </ul>
-
-  <h2>3. Supabase and Service Providers</h2>
-
-  <p>
-    SQUOOS uses <strong>Supabase</strong> to provide account authentication and
-    related backend services. When you create an account or sign in,
-    information such as your email address and authentication data is processed
-    by Supabase to provide those services.
-  </p>
-
-  <p>
-    Supabase describes its password-based authentication system as storing
-    salted password hashes rather than plain-text passwords. For more
-    information, see
-    <a href="https://supabase.com/docs/guides/auth/password-security"
-       target="_blank" rel="noopener noreferrer">
-      Supabase’s Password Security documentation
-    </a>.
-  </p>
-
-  <p>
-    No other third-party services or SDKs are used by SQUOOS to process
-    information.
-  </p>
-
-  <h2>4. Sharing of Information</h2>
-
-  <p>We do not sell your personal information.</p>
-
-  <p>
-    We may provide information to service providers, such as Supabase, when
-    needed to operate the App and its features. We may also disclose information
-    when required by law or when reasonably necessary to protect the rights,
-    safety, and security of users or the App.
-  </p>
-
-  <h2>5. Data Retention and Account Deletion</h2>
-
-  <p>
-    We retain information for as long as necessary to provide the App’s
-    features and for legitimate operational, security, and legal purposes.
-  </p>
-
-  <p>
-    <strong>Account deletion:</strong> If you choose to delete your account, it
-    will be entirely removed from Supabase. You will be allowed to sign up
-    again with the email address you had previously used for the deleted
-    account.
-  </p>
-
-  <h2>6. Security</h2>
-
-  <p>
-    We use reasonable measures intended to protect information. No method of
-    electronic storage or transmission is completely secure, and we cannot
-    guarantee absolute security.
-  </p>
-
-  <h2>7. Children’s Privacy</h2>
-
-  <p>
-    The app is suitable for all ages. Because nothing is transmitted or
-    collected besides an email address and password, no personal information about children is gathered, shared or
-    disclosed to anyone.
-  </p>
-
-  <h2>8. Your Choices and Rights</h2>
-
-  <p>
-    Depending on where you live, you may have rights concerning your personal
-    information, such as requesting access, correction, or deletion. To make
-    a privacy-related request, contact us using the details below.
-  </p>
-
-  <h2>9. Changes to This Policy</h2>
-
-  <p>
-    We may update this Privacy Policy from time to time. If we make changes,
-    we will update the effective date above and provide any additional notice
-    required by law.
-  </p>
-
-  <h2>10. Contact Us</h2>
-
-  <p>
-    For questions or requests concerning this Privacy Policy, contact:
-  </p>
-
-  <p>
-    <strong>Developer:</strong> Michael Rubenstein<br>
-    <strong>Email:</strong>
-    <a href="mailto:squoosgame@gmail.com">squoosgame@gmail.com</a><br>
-    <strong>Website:</strong>
-    <a href="https://squoosgame-max.github.io/squoos-support/support.html"
-       target="_blank" rel="noopener noreferrer">
-      https://squoosgame-max.github.io/squoos-support/support.html
-    </a>
-  </p>
-
+<div class="wrap">
+ 
+<h1>SQUOOS Privacy Policy</h1>
+<p class="meta">Effective September 24, 2026 · Rubenstein Games</p>
+ 
+<p>This policy explains what information the SQUOOS game ("SQUOOS", "the app", "we") collects, how it's used, and the choices you have. We've tried to keep it short and plain.</p>
+ 
+<div class="summary">
+<b>The short version</b>
+<ul>
+  <li>You can play SQUOOS <b>without an account</b>. Guest progress stays on your device.</li>
+  <li>If you create an account, we store your <b>email address</b>, your <b>game progress</b>, and any <b>leaderboard name and scores</b> you post.</li>
+  <li>SQUOOS shows <b>optional video ads</b> from Google AdMob. They're set up for children: <b>non-personalized, rated G, and with no cross-app tracking</b>.</li>
+  <li>The one-time <b>Remove Ads</b> purchase is handled by Apple. We never see your payment details.</li>
+  <li>We <b>don't sell</b> your information. You can <b>delete your account</b> from inside the app at any time.</li>
+</ul>
+</div>
+ 
+<h2>1. Information we collect</h2>
+ 
+<h3>If you play as a guest</h3>
+<p>Your progress, settings and scores are saved only on your device. We don't receive them. Leaderboards need an account to post.</p>
+ 
+<h3>If you create an account</h3>
+<div class="tablewrap">
+<table>
+  <tr><th>Information</th><th>Why we use it</th></tr>
+  <tr><td>Email address</td><td>To create your account, let you sign in, confirm your address, and reset your password.</td></tr>
+  <tr><td>Password</td><td>To sign you in. It's stored securely (hashed) by our account provider; we can't read it.</td></tr>
+  <tr><td>Profile name</td><td>Shown in the game. By default it's the part of your email address before the "@", and you can change it.</td></tr>
+  <tr><td>Game progress and settings</td><td>Level, experience, unlocked characters and skins, achievements, sound and vibration settings, so your progress is saved to your account.</td></tr>
+  <tr><td>Leaderboard name, 4-digit PIN, scores, level and character</td><td>To post your scores to the shared leaderboards. Your <b>leaderboard name, score, level and character are visible to other players</b>. Your email address is never shown.</td></tr>
+</table>
+</div>
+ 
+<h3>Information kept on your device</h3>
+<p>The app keeps some information on your device only: your progress, whether you've bought Remove Ads (so the game stays ad-free offline), and your email address if you tick "Remember Email" on the sign-in screen.</p>
+ 
+<h3>Advertising (Google AdMob)</h3>
+<p>SQUOOS offers optional rewarded videos. For example, you can watch a short video to get an extra heart, extra time, or another try in the Daily Challenge. Ads are never required to play.</p>
+<p>These ads are provided by Google AdMob. Every ad request from SQUOOS is marked as <b>directed to children</b> (under the U.S. Children's Online Privacy Protection Act, COPPA) and as coming from a user <b>under the age of consent</b> (for European privacy law). SQUOOS also limits ads to a <b>G rating</b> and requests <b>non-personalized ads only</b>. SQUOOS does not ask for permission to track you and does not use the device's advertising identifier for tracking.</p>
+<p>To show an ad, count views, cap how often ads appear and prevent fraud, Google's software may still process limited technical information. This can include your IP address, device type, operating system, app version, and how you interacted with the ad. Google handles this under its own policies: <a href="https://policies.google.com/technologies/ads">How Google uses information from apps that use its services</a> and the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+ 
+<h3>Purchases</h3>
+<p>The optional <b>Remove Ads</b> purchase ($0.99, one time) is processed entirely by Apple through the App Store. We don't receive your name, payment card or Apple ID details. The app only learns whether Remove Ads has been bought, so it can turn ads off and let you restore the purchase on a new device.</p>
+ 
+<h3>What we don't collect</h3>
+<p>SQUOOS doesn't collect your location, contacts, photos, microphone or camera data. It doesn't track you across other companies' apps or websites.</p>
+ 
+<h2>2. How we use information</h2>
+<ul>
+  <li>To run the game, save your progress and show leaderboards.</li>
+  <li>To manage your account, including confirmation and password-reset emails.</li>
+  <li>To show optional rewarded ads and provide the rewards you choose.</li>
+  <li>To turn ads off and restore your purchase if you buy Remove Ads.</li>
+  <li>To keep the game working, secure and fair.</li>
+</ul>
+<p>We don't sell your personal information. We don't use it for targeted advertising, and we don't send marketing emails.</p>
+ 
+<h2>3. Who we share it with</h2>
+<p>We only share information with the service providers that make SQUOOS work:</p>
+<ul>
+  <li><b>Supabase</b>: stores accounts, profiles and leaderboard scores for us.</li>
+  <li><b>Google AdMob</b>: provides the optional ads, as described above.</li>
+  <li><b>Apple</b>: processes the Remove Ads purchase and distributes the app.</li>
+</ul>
+<p>Leaderboard names, scores, levels and characters are visible to other SQUOOS players. We may also disclose information if the law requires it.</p>
+ 
+<h2>4. Children</h2>
+<p>SQUOOS is designed to be suitable for players of all ages, including students.</p>
+<ul>
+  <li><b>Children can play without an account.</b> In guest mode, we don't collect personal information from them.</li>
+  <li>Creating an account requires an email address. Accounts are intended for players <b>13 and older</b>, or younger players whose parent or guardian has given permission.</li>
+  <li>All ads in SQUOOS are requested as child-directed, non-personalized and G-rated, for every player.</li>
+</ul>
+<p>If you're a parent or guardian and believe your child created an account without your permission, contact us (see below). We'll delete the account and its information.</p>
+ 
+<h2>5. Keeping and deleting your information</h2>
+<p>We keep your account information for as long as your account exists.</p>
+<p><b>Delete your account in the app:</b> sign in, open the menu, and tap <b>Delete profile</b>. This permanently deletes your account, your saved profile and progress, and your leaderboard scores from our servers. It also clears them from your device. You can also ask us to delete your account by email.</p>
+<p>Guest progress stays on your device until you delete the app.</p>
+ 
+<h2>6. Your choices and rights</h2>
+<ul>
+  <li><b>Play without an account.</b> Nothing about you is stored on our servers.</li>
+  <li><b>Skip ads.</b> Rewarded videos are always optional. You can decline them, or buy Remove Ads to get the same rewards without videos.</li>
+  <li><b>Change your leaderboard name</b> from the Leaderboards screen.</li>
+  <li><b>See, correct or delete your information.</b> Use the in-app options or contact us. Depending on where you live (for example California or the EU/UK), you may have additional rights, and we'll honor them.</li>
+</ul>
+ 
+<h2>7. Security</h2>
+<p>Account data is sent over encrypted connections (HTTPS) and stored with our provider, Supabase. No system is perfectly secure, but we work to protect your information.</p>
+ 
+<h2>8. Changes to this policy</h2>
+<p>If we change this policy, we'll update the date at the top of this page. For significant changes, we'll also let players know in the app or on the App Store listing.</p>
+ 
+<h2>9. Contact</h2>
+<p>Questions or requests about privacy:<br>
+<b>SQUOOS</b><br>
+Email: <a href="mailto:squoosgame@gmail.com">squoosgame@gmail.com</a></p>
+ 
+<footer>SQUOOS · Privacy Policy · Effective September 24, 2026</footer>
+</div>
 </body>
 </html>
